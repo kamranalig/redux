@@ -86,6 +86,7 @@ function bonusReducer (state={points:0},action){
     }
 }
 
+
 function getAccountUserFulFilled(value) {
    return {type:getAccUserFulFilled, payload:value}
 }
